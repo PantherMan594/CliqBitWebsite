@@ -1,0 +1,321 @@
+body {
+	background-color: #f28530;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	color: #fff;
+}
+
+a.back-to-top {
+	color: white;
+	text-align: center;
+	display: none;
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background-color: #d00000;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+a.back-to-top:hover {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	opacity: 0.75;
+	filter: alpha(opacity=75);
+}
+
+.back-to-top i {
+	margin-top: 2px;
+}
+
+header {
+	height: 50vh;
+	background: url("../img/logo_large.png") no-repeat center;
+}
+
+nav {
+	background-color: #d00000;
+	margin: 0;
+	overflow: hidden;
+}
+nav ul {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+#tagline {
+	font-size: 20px;
+    display: block;
+    padding-bottom: 2vh;
+	background-color: #f28530;
+	font-weight: bold;
+}
+nav ul li {
+	margin: 0 -2px;
+	display: inline-block;
+	list-style-type: none;
+}
+nav > ul > li > a {
+	font-size: 20px;
+    color: #fff;
+    display: block;
+    line-height: 1;
+    padding: 25px 35px;
+    text-decoration: none;
+	font-variant: small-caps;
+	font-weight: bold;
+	border-bottom: 3px solid #fff;
+}
+nav > ul > li > a:hover {
+	color: #000;
+	padding-top: 20px;
+	border-top: 5px solid #000;
+}
+#download {
+	border-bottom: 0px solid #fff;
+}
+#download:hover {
+	color: #fff;
+	background: #9e0000;
+	border-top: 5px solid #9e0000;
+}
+#logo {
+	background: url("../img/logo.png") no-repeat center;
+}
+#logo span {
+	visibility: hidden;
+}
+#logo:hover {
+	padding-top: 25px;
+	border-top: 0px solid #000;
+}
+#nav-active {
+	color: #000;
+	padding-top: 20px;
+	border-top: 5px solid #000;
+}
+@media screen and (max-width: 765px) {
+	#logo {
+		display: none;
+	}
+	nav ul {
+		text-align: center;
+	}
+	.loginbox {
+		float: none;
+	}
+	nav ul li {
+		display: block;
+		margin: 0 -2px;
+		list-style-type: none;
+	}
+	nav > ul > li > a {
+		border-bottom: 0px solid #fff;
+	}
+	#nav-active {
+		background: #9e0000;
+		color: #fff;
+		padding-top: 25px;
+		border-top: 0px solid #000;}
+}
+.hidden {
+	display: none;
+}
+
+#content {
+	margin-top: 10vh;
+}
+#content p {
+	font-size: 18px;
+	margin: 10px auto;
+	width: 80vw;
+	max-width: 800px;
+}
+
+hr {
+	display: block;
+    height: 1px;
+	width: 50vw;
+	max-width: 500px;
+    border: 0;
+    border-top: 3px solid #fff;
+    margin: 1em auto;
+    padding: 0;
+}
+
+img {
+	max-width: 100vw;
+}
+
+#demo {
+	z-index: 10;
+	height: 110vh;
+	display: block;
+	margin: 0 auto;
+	max-width: 90vw;
+	pointer-events: none;
+}
+
+.demoImg {
+	position: relative;
+	z-index: 5;
+	width: 20vw;
+	display: block;
+	margin: 20px auto;
+}
+
+#captions {
+	z-index: 20;
+	position: absolute;
+	left: 70vw;
+	float: right;
+	background: #ffaa00;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+#funny {
+	display: block;
+}
+
+.imgTitle {
+	margin-top: 0;
+}
+
+@media screen and (max-width: 765px) {
+	#captions {
+		left: 2vw;
+		opacity: 0.75;
+		filter: alpha(opacity=75);
+	}
+}
+
+#viewmore {
+	color: white;
+	background-color: #ffd300;
+    text-decoration: none;
+	margin: 1vw;
+	padding: 1vw;
+}
+
+.centered {
+	text-align: center;
+}
+
+.indent {
+	text-indent: 3em;
+}
+
+.blazinImages {
+	color: #fff;
+	position: relative;
+	z-index: 5;
+	width: 20vw;
+	display: block;
+	margin: 20px auto;
+}
+
+.time {
+	float: right;
+}
+
+.views {
+	text-align: right;
+}
+
+.views img {
+	height: 1em;
+}
+
+.tagged {
+	list-style-type: none;
+}
+
+.image {
+	background-color: #fff;
+	border-radius: 10px;
+	color: #000;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.location {
+	display: inline;
+	position: relative;
+	font-weight: normal;
+	top: -6px;
+}
+
+.postFooter {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.comment {
+	font-weight: normal;
+}
+
+.commentName {
+	font-weight: bold;
+	color: gray
+}
+
+/*!
+ *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.6.3');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fa-2x {
+  font-size: 2em;
+}
+.fa-3x {
+  font-size: 3em;
+}
+.fa-4x {
+  font-size: 4em;
+}
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-twitter:before {
+  content: "\f099";
+}
+
+.fa-chevron-up:before {
+  content: "\f077";
+}
