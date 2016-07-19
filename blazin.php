@@ -26,7 +26,7 @@
 		<ul id="nav">
 			<li><a id="logo" href="./"><span>filler</span></a></li>
 			<li><a href="./">Home</a></li>
-			<li ><a id="nav-active" href="blazin">Blazin' Bits</a></li>
+			<li><a id="nav-active" href="blazin">Blazin' Bits</a></li>
 			<li><a href="about">About Us</a></li>
 			<li><a href="contact">Contact</a></li>
 			<li><a href="https://twitter.com/CliqBit"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
