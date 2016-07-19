@@ -8,7 +8,7 @@
 	<meta name="HandheldFriendly" content="true">
 	
 	<link href="./favicon.png" rel="shortcut icon">
-	<title>Home - CliqBit</title>
+	<title>Home | CliqBit</title>
 	<meta name="description" content="CliqBit | The joke's on us. Drop the news and ditch the drama. We're the funny-focused social media app.">
 	
 	<script type="text/javascript" src="assets/js/jquery-3.0.0.min.js"></script>
