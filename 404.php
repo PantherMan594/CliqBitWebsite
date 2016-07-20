@@ -14,7 +14,7 @@
 	<header></header>
 	<nav>
 		<ul id="nav-pre">
-			<li id="tagline">Share your not-so-serious side.</li>
+			<li id="tagline">Get back to the real world.</li>
 			<li ><a id="download" href="https://itunes.apple.com/us/app/cliqbit/id1029040166?ls=1&mt=8">Download Now!</a></li>
 		</ul>
 		<ul id="nav">
@@ -27,8 +27,8 @@
 		</ul>
 	</nav>
 	<div id="content">
-		<h3>Joke's on you!</h3>
-		<p>Uh oh, you came to the wrong place. This is not CliqBit! In fact... this page doesn't exist! You should go back to our <a href="./">home page</a> and continue from there.</p>
+		<h1 class="centered">Joke's on you!</h3>
+		<p>You came to the wrong place. This is not CliqBit! In fact... this page doesn't exist! You should go back to our <a href="./">home page</a> and continue from there.</p>
 	</div>
 </body>
 <link type="text/css" rel="stylesheet" href="assets/css/style.css">
