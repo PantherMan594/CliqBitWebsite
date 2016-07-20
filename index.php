@@ -33,7 +33,7 @@
 		</ul>
 	</nav>
 	<div id="content">
-		<p>The joke’s on us. Literally—we’re the humorous social media platform for your not-so-serious side. Candid photos, stockpiled screenshots, funny videos, and clever comments are about to be taken to a whole new level. Get ready for some serious laughter!aaa</p>
+		<p>The joke’s on us. Literally—we’re the humorous social media platform for your not-so-serious side. Candid photos, stockpiled screenshots, funny videos, and clever comments are about to be taken to a whole new level. Get ready for some serious laughter!</p>
 		<br />
 		<p>Share inside jokes and funny moments with all your friends or swipe over and post to a private cliq. Your posts can be permanent, or they can disappear right off the newsfeed. It’s up to you! </p>
 		<hr>
