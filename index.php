@@ -30,7 +30,7 @@
 	</nav>
 	<div id="content">
 		<h2 class="centered">The joke’s on us.</h2>
-		<p>Literally — we’re the humorous social media platform for your not-so-serious side. Candid photos, stockpiled screenshots, funny videos, and clever comments are about to be taken to a whole new level. Get ready for some serious laughter!</p>
+		<p class="indent">Literally — we’re the humorous social media platform for your not-so-serious side. Candid photos, stockpiled screenshots, funny videos, and clever comments are about to be taken to a whole new level. Get ready for some serious laughter!</p>
 		<p class="indent">Share inside jokes and funny moments with all your friends or swipe over and post to a private cliq. Your posts can be permanent, or they can disappear right off the newsfeed. It’s up to you!</p>
 		<p class="indent">Join us for a quick laugh, and have the fun social media experience you can't get anywhere else! Edit photos, change their lifespan, and create memes all in 1 awesome app!</p>
 		<hr>
