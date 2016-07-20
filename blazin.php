@@ -11,7 +11,7 @@
 	<title>Blazin' Bits | CliqBit</title>
 	<meta name="description" content="CliqBit | View the latest, hottests posts right here, right now (or on the app, we would actually prefer that)!">
 	
-	<script type="text/javascript" src="assets/js/jquery-3.0.0.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	
 	<link type="text/css" rel="stylesheet" href="assets/css/style.css">
 </head>

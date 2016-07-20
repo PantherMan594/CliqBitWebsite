@@ -11,7 +11,7 @@
 	<title>Home | CliqBit</title>
 	<meta name="description" content="CliqBit | The joke's on us. Drop the news and ditch the drama. We're the funny-focused social media app.">
 	
-	<script type="text/javascript" src="assets/js/jquery-3.0.0.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	
 	<link type="text/css" rel="stylesheet" href="assets/css/style.css">
 </head>
