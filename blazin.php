@@ -9,7 +9,7 @@
 	
 	<link href="./favicon.png" rel="shortcut icon">
 	<title>Blazin' Bits | CliqBit</title>
-	<meta name="description" content="CliqBit | View the latest, hottests posts right here, right now (or on the app, we would actually prefer that)!">
+	<meta name="description" content="CliqBit | View the latest, hottests posts right here, right now (or on the app, we would actually prefer that).">
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	
