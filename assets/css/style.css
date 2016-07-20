@@ -138,7 +138,7 @@ nav > ul > li > a:hover {
 	font-size: 18px;
 }
 
-#content p, #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+#content > p, #content > h1, #content > h2, #content > h3, #content > h4, #content > h5, #content > h6 {
 	margin: 10px auto;
 	width: 80vw;
 	max-width: 800px;
