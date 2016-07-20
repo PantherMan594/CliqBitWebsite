@@ -57,7 +57,7 @@ $s3 = new Aws\S3\S3Client([
 	]
 ]);
 
-$ping = json_decode(file_get_contents('../../blazinCache/api.json'), true);
+$ping = json_decode(file_get_contents('https://api.cliqbitapp.com/CustomAPI_br8tradevusteswe_v1.14/rest/feed/blazinBits/1/0/75'), true);
 foreach($ping['data'] as $post) {
 	$text = $post['postText'];
 	
