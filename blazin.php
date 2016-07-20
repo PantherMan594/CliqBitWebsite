@@ -30,7 +30,7 @@
 	</nav>
 	<div id="content">
 		<h2>Blazin' Bits</h2>
-		<p>are the top public posts throughout all the CliqBit-ers. Post your funniest pictures to get them on the list!</p>
+		<p>...are the top public posts throughout all the CliqBit-ers. Post your funniest pictures to get them on the list for everyone to see!</p>
 		<hr>
 		<img id="demo" src="assets/img/iphoneTemplateBlazin.png" />
 		<div id="rest">
