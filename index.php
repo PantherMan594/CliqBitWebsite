@@ -11,10 +11,6 @@
 	<title>Home | CliqBit</title>
 	<meta name="description" content="CliqBit | The joke's on us. Drop the news and ditch the drama. We're the funny-focused social media app.">
 	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	
-	<link type="text/css" rel="stylesheet" href="assets/css/style.css">
-	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body>
 	<a href="#" class="back-to-top"><i class="fa fa-chevron-up fa-3x" aria-hidden="true"></i></a>
@@ -82,6 +78,10 @@
 		</div>
 	</div>
 </body>
+<link type="text/css" rel="stylesheet" href="assets/css/style.css">
+<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript">
 	var elementPosition = $('#demo').offset();
 	var imgOffset = elementPosition.top - $('.funny').offset().top;
