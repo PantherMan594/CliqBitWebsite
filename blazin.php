@@ -29,6 +29,9 @@
 		</ul>
 	</nav>
 	<div id="content">
+		<h2>Blazin' Bits</h2>
+		<p>are the top public posts throughout all the CliqBit-ers. Post your funniest pictures to get them on the list!</p>
+		<hr>
 		<img id="demo" src="assets/img/iphoneTemplateBlazin.png" />
 		<div id="rest">
 			<div class="blazinImages" style="margin-top: -85vh" ></div>
