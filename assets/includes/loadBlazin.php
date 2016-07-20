@@ -57,7 +57,7 @@ $s3 = new Aws\S3\S3Client([
 	]
 ]);
 
-$ping = json_decode(file_get_contents('../../blazinCache/api'), true);
+$ping = json_decode(file_get_contents('../../blazinCache/api.json'), true);
 foreach($ping['data'] as $post) {
 	$text = $post['postText'];
 	
