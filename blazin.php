@@ -51,7 +51,7 @@
 	var elementPosition = $('#demo').offset();
 	var amountScrolled = 300;
 	
-	$(document).read(function(){
+	$(document).ready(function(){
 		setTimeout(function(){
 			$('.imageWrapper').load('./assets/includes/loadBlazin.php');
 			$('.blazinImages').css('width',($('#demo').width() * 0.8));
