@@ -61,13 +61,14 @@ clicky_site_ids.push(100974674);
 	var amountScrolled = 300;
 	
 	$(document).ready(function(){
-		$('.imageWrapper').load('./assets/includes/loadBlazin.php');
-		setTimeout(function(){
+		$('.imageWrapper').load('./assets/includes/loadBlazin.php', function() {
 			$('.blazinImages').css('width',($('#demo').width() * 0.8));
 			$('.postFooter').css('width',($('#demo').width() * 0.75));
 			$('.image').css('width',($('#demo').width() * 0.75));
 			$('.postImg').css('width',($('#demo').width() * 0.75));
 			$('#funny').css('width',($('#demo').offset() + 20));
+		});
+		setTimeout(function(){
 		}, 3000);
 	});
 
