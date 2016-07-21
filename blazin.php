@@ -35,7 +35,7 @@
 		<img id="demo" src="assets/img/iphoneTemplateBlazin.png" />
 		<div id="rest">
 			<div class="blazinImages" style="margin-top: -85vh" ></div>
-			<div class="imageWrapperNo" >Loading images...</div>
+			<div class="imageWrapper" >Loading images...</div>
 			<div class="blazinImages" style="height: 30px" ></div>
 		</div>
 	</div>
@@ -50,19 +50,19 @@
 <script type="text/javascript">
 	var elementPosition = $('#demo').offset();
 	var amountScrolled = 300;
+	
+	$(document).read(function(){
+		setTimeout(function(){
+			$('.imageWrapper').load('./assets/includes/loadBlazin.php');
+			$('.blazinImages').css('width',($('#demo').width() * 0.8));
+			$('.postFooter').css('width',($('#demo').width() * 0.75));
+			$('.image').css('width',($('#demo').width() * 0.75));
+			$('.postImg').css('width',($('#demo').width() * 0.75));
+			$('#funny').css('width',($('#demo').offset() + 20));
+		}, 1000);
+	});
 
 	$(window).scroll(function(){
-		$('.imageWrapperNo').load('./assets/includes/loadBlazin.php');
-		if ($('.imageWrapperNo').length) {
-			setTimeout(function(){
-				$('.imageWrapperNo').removeClass('imageWrapperNo');
-				$('.blazinImages').css('width',($('#demo').width() * 0.8));
-				$('.postFooter').css('width',($('#demo').width() * 0.75));
-				$('.image').css('width',($('#demo').width() * 0.75));
-				$('.postImg').css('width',($('#demo').width() * 0.75));
-				$('#funny').css('width',($('#demo').offset() + 20));
-			}, 1000);
-		}
 		
 		var scrollTop = $(window).scrollTop();
 		
