@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set('BST');
+date_default_timezone_set('BRT');
 
 function time2str($ts)
 {
