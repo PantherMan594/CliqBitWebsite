@@ -43,7 +43,7 @@ header {
 }
 
 nav {
-	background-color: #d00000;
+	background-color: #a20009;
 	margin: 0;
 	overflow: hidden;
 }
@@ -55,7 +55,7 @@ nav ul {
 #tagline {
 	font-size: 20px;
     display: block;
-    margin-top: 30vh;
+    padding-bottom: 2vh;
 	background-color: #f28530;
 	font-weight: bold;
 }
@@ -181,7 +181,7 @@ img {
 	position: absolute;
 	left: 70vw;
 	float: right;
-	background: #ffaa00;
+	background: #f2af30;
 	padding-left: 2vw;
 	padding-right: 2vw;
 }
