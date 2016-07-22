@@ -15,7 +15,6 @@
 	<a href="#" class="back-to-top"><i class="fa fa-chevron-up fa-3x" aria-hidden="true"></i></a>
 	<nav>
 		<ul id="nav-pre">
-			<li id="tagline">Share your not-so-serious side.</li>
 			<li ><a id="download" href="https://itunes.apple.com/us/app/cliqbit/id1029040166?ls=1&mt=8">Download Now!</a></li>
 		</ul>
 		<ul id="nav">
@@ -27,7 +26,9 @@
 			<li><a href="https://twitter.com/CliqBit"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 		</ul>
 	</nav>
-	<header></header>
+	<header>
+	<h3 id="tagline" class="centered">Share your not-so-serious side.</h3>
+	</header>
 	<div id="content">
 		<h2 class="centered">The joke’s on us.</h2>
 		<p class="indent">Literally — we’re the humorous social media platform for your not-so-serious side. Candid photos, stockpiled screenshots, funny videos, and clever comments are about to be taken to a whole new level. Get ready for some serious laughter!</p>
