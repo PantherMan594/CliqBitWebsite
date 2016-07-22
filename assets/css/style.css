@@ -181,6 +181,7 @@ img {
 	margin: 0 auto;
 	max-width: 90vw;
 	pointer-events: none;
+	position: relative;
 }
 
 .demoImg {
