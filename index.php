@@ -112,7 +112,7 @@
 			$('a.back-to-top').fadeOut('slow');
 		}
 		
-		if(scrollTop + $('#nav').height() > elementPosition.top){
+		if(scrollTop - 55 > elementPosition.top){
 			$('#rest').css('margin-top',$('#demo').height() + 15);
 			$('#demo').css('position','fixed').css('top',$('#nav').height()).css('left','50%').css('margin-left',(-0.5 * $('#demo').width()));
 		} else {
