@@ -112,11 +112,7 @@
 			$('a.back-to-top').fadeOut('slow');
 		}
 		
-<<<<<<< HEAD
 		if(scrollTop + 55 > elementPosition.top){
-=======
-		if(scrollTop - 55 > elementPosition.top){
->>>>>>> 2f6800348aa1779dc8a825652ece4de38a4ccc99
 			$('#rest').css('margin-top',$('#demo').height() + 15);
 			$('#demo').css('position','fixed').css('top',$('#nav').height()).css('left','50%').css('margin-left',(-0.5 * $('#demo').width()));
 		} else {
