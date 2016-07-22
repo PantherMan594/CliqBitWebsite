@@ -42,19 +42,6 @@
 </body>
 <link type="text/css" rel="stylesheet" href="assets/css/style.css">
 <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-<a title="Web Statistics" href="http://clicky.com/100974674"><img alt="Web Statistics" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
-<script type="text/javascript">
-var clicky_site_ids = clicky_site_ids || [];
-clicky_site_ids.push(100974674);
-(function() {
-  var s = document.createElement('script');
-  s.type = 'text/javascript';
-  s.async = true;
-  s.src = '//static.getclicky.com/js';
-  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
-})();
-</script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100974674ns.gif" /></p></noscript>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript">
 	var elementPosition = $('#demo').offset();
