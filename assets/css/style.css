@@ -82,6 +82,7 @@ nav > ul > li > a:hover {
 }
 #nav {
 	width: 100vw;
+	background-color: #a20009;
 }
 #download {
 	border-bottom: 0px solid #fff;
