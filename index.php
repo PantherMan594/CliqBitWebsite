@@ -13,7 +13,6 @@
 </head>
 <body>
 	<a href="#" class="back-to-top"><i class="fa fa-chevron-up fa-3x" aria-hidden="true"></i></a>
-	<header></header>
 	<nav>
 		<ul id="nav-pre">
 			<li id="tagline">Share your not-so-serious side.</li>
@@ -28,6 +27,7 @@
 			<li><a href="https://twitter.com/CliqBit"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 		</ul>
 	</nav>
+	<header></header>
 	<div id="content">
 		<h2 class="centered">The joke’s on us.</h2>
 		<p class="indent">Literally — we’re the humorous social media platform for your not-so-serious side. Candid photos, stockpiled screenshots, funny videos, and clever comments are about to be taken to a whole new level. Get ready for some serious laughter!</p>
