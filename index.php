@@ -82,6 +82,7 @@
 <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript">
+	var navPosition = $('nav').offset();
 	var elementPosition = $('#demo').offset();
 	var imgOffset = elementPosition.top - $('.funny').offset().top;
 	var amountScrolled = 300;
@@ -94,6 +95,14 @@
 
 	$(window).scroll(function(){
 		var scrollTop = $(window).scrollTop();
+		
+		if (scrollTop > navPosition.top) {
+			$('#content').css('margin-top',$('#demo').height() + 15);
+			$('nav').css('position','fixed').css('top','0');
+		} else {
+			$('nav').css('position','static').css('margin-left','auto');
+			$('#content').css('margin-top','0');
+		}
 		
 		if (scrollTop > amountScrolled ) {
 			$('a.back-to-top').fadeIn('slow');
