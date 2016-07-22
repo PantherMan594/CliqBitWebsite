@@ -98,10 +98,8 @@
 		
 		if (scrollTop > navPosition.top) {
 			$('#content').css('margin-top',$('#nav').height() + 15);
-			$('#nav').css('position','fixed').css('top','0');
 			$('#nav').addClass('stick');
 		} else {
-			$('#nav').css('position','static');
 			$('#nav').removeClass('stick');
 			$('#content').css('margin-top','0');
 		}

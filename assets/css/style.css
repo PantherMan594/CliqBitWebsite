@@ -83,13 +83,16 @@ nav > ul > li > a:hover {
 #nav {
 	width: 100vw;
 	background-color: #a20009;
+	position: static;
 }
 #nav.stick {
+	top: 0;
 	z-index: 1000;
+	position: fixed;
 }
 #nav.stick > li > a {
 	line-height: 0.75;
-	padding: 15px 50px;
+	padding: 15px 70px;
 }
 #nav.stick > li > a:hover {
 	padding-top: 10px;
