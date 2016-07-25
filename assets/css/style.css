@@ -92,11 +92,7 @@ nav > ul > li > a:hover {
 }
 #nav.stick > li > a {
 	line-height: 0.75;
-	padding: 15px 70px;
-}
-#nav.stick > li > a:hover {
-	padding-top: 10px;
-	border-top: 5px solid #000;
+	padding: 15px 35px;
 }
 #download {
 	border-bottom: 0px solid #fff;
@@ -119,6 +115,10 @@ nav > ul > li > a:hover {
 #nav-active {
 	color: #000;
 	padding-top: 20px;
+	border-top: 5px solid #000;
+}
+#nav.stick > li > a:hover, .stick #nav-active {
+	padding-top: 10px;
 	border-top: 5px solid #000;
 }
 @media screen and (max-width: 765px) {
