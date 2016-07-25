@@ -107,6 +107,7 @@ nav > ul > li > a:hover {
 }
 #logo {
 	background: url("../img/logo.png") no-repeat center;
+	background-size: contain;
 }
 #logo span {
 	visibility: hidden;
