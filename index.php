@@ -96,7 +96,7 @@
 	$(window).scroll(function(){
 		var scrollTop = $(window).scrollTop();
 		
-		if (scrollTop > navPosition.top) {
+		if (scrollTop > navPosition.top && $(window).width() > 765) {
 			$('#content').css('margin-top',$('#nav').height() + 15);
 			$('#nav').addClass('stick');
 		} else {
