@@ -60,8 +60,8 @@
 		<img src="assets/img/profile.png" alt="Example profile page" />
 	</div>
 </body>
-<link type="text/css" rel="stylesheet" href="assets/css/style.css">
 <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link type="text/css" rel="stylesheet" href="assets/css/style.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript">
 	var amountScrolled = 300;
