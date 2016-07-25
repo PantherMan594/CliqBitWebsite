@@ -90,9 +90,12 @@ nav > ul > li > a:hover {
 	z-index: 1000;
 	position: fixed;
 }
-#nav.stick > li > a, #nav.stick > li > a > i {
+#nav.stick > li > a{
 	line-height: 0.75;
 	padding: 15px 35px;
+}
+#nav.stick > li > a > i {
+	line-height: 0.75
 }
 #download {
 	border-bottom: 0px solid #fff;
