@@ -124,6 +124,9 @@ nav > ul > li > a:hover {
 	padding-top: 10px!important;
 	border-top: 5px solid #000;
 }
+.stick #logo {
+	background: url("../img/laugh.png") no-repeat center;
+}
 #logo:hover {
 	padding-top: 20px;
 	border-top: 0px solid #000;
