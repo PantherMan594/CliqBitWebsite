@@ -112,7 +112,7 @@
 		
 		if(scrollTop > elementPosition.top - 55){
 			$('#rest').css('margin-top',$('#demo').height() + 15);
-			$('#demo').css('position','fixed').css('top',$('.stick').height()).css('left','50%').css('margin-left',(-0.5 * $('#demo').width()));
+			$('#demo').css('position','fixed').css('top',$('.stick').height() == null ? 0 : $('.stick').height()).css('left','50%').css('margin-left',(-0.5 * $('#demo').width()));
 		} else {
 			$('#demo').css('position','relative');
 			$('#rest').css('margin-top','0');

@@ -121,16 +121,16 @@ nav > ul > li > a:hover {
 	padding-top: 20px;
 	border-top: 5px solid #000;
 }
-#nav.stick > li > a:hover, .stick #nav-active {
+#nav.stick a:not(#logo):hover, .stick #nav-active {
 	padding-top: 10px!important;
-	border-top: 0px solid #000;
+	border-top: 5px solid #000;
 }
 .stick #logo {
 	background: url("../img/laugh.png") no-repeat center;
 	background-size: contain;
 }
-#logo:hover {
-	padding-top: 20px;
+.stick #logo:hover {
+	padding-top: 15px;
 	border-top: 0px solid #000;
 }
 @media screen and (max-width: 765px) {
