@@ -91,7 +91,7 @@ nav > ul > li > a:hover {
 	position: fixed;
 }
 #nav.stick > li > a {
-	line-height: 0.75;
+	line-height: 0.75!important;
 	padding: 15px 35px;
 }
 #download {
