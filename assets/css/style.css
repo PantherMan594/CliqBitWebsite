@@ -121,7 +121,7 @@ nav > ul > li > a:hover {
 	border-top: 5px solid #000;
 }
 #nav.stick > li > a:hover, .stick #nav-active {
-	padding-top: 10px;
+	padding-top: 10px!important;
 	border-top: 5px solid #000;
 }
 @media screen and (max-width: 765px) {
