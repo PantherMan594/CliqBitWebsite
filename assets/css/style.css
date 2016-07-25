@@ -68,7 +68,6 @@ nav > ul > li > a {
 	font-size: 20px;
     color: #fff;
     display: block;
-    line-height: 1;
     padding: 25px 35px;
     text-decoration: none;
 	font-variant: small-caps;
@@ -91,7 +90,6 @@ nav > ul > li > a:hover {
 	position: fixed;
 }
 #nav.stick > li > a {
-	line-height: 0.75!important;
 	padding: 15px 35px;
 }
 #download {
