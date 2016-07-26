@@ -95,6 +95,7 @@
 
 	$(window).scroll(function(){
 		var scrollTop = $(window).scrollTop();
+		var stickHeight = $('.stick').height() == null ? 0 : $('.stick').height();
 		
 		if (scrollTop > navPosition.top && $(window).width() > 765) {
 			$('#content').css('margin-top',$('#nav').height() + 15);
@@ -110,9 +111,9 @@
 			$('a.back-to-top').fadeOut('slow');
 		}
 		
-		if(scrollTop > elementPosition.top - 55){
+		if(scrollTop > elementPosition.top - stickHeight){
 			$('#rest').css('margin-top',$('#demo').height() + 15);
-			$('#demo').css('position','fixed').css('top',$('.stick').height() == null ? 0 : $('.stick').height()).css('left','50%').css('margin-left',(-0.5 * $('#demo').width()));
+			$('#demo').css('position','fixed').css('top',stickHeight).css('left','50%').css('margin-left',(-0.5 * $('#demo').width()));
 		} else {
 			$('#demo').css('position','relative');
 			$('#rest').css('margin-top','0');
