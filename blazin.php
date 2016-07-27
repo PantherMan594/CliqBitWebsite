@@ -43,9 +43,9 @@
 <link type="text/css" rel="stylesheet" href="assets/css/style.css">
 <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="assets/js/global/js"></script>
 <script type="text/javascript">
 	var elementPosition = $('#demo').offset();
-	var amountScrolled = 300;
 	
 	$(document).ready(function(){
 		$('.imageWrapper').load('./assets/includes/loadBlazin.php', function() {
@@ -60,14 +60,7 @@
 	});
 
 	$(window).scroll(function(){
-		
 		var scrollTop = $(window).scrollTop();
-		
-		if (scrollTop > amountScrolled ) {
-			$('a.back-to-top').fadeIn('slow');
-		} else {
-			$('a.back-to-top').fadeOut('slow');
-		}
 		
 		if(scrollTop > elementPosition.top){
 			$('#rest').css('margin-top',$('#demo').height() + 80);
@@ -76,13 +69,6 @@
 			$('#demo').css('position','static').css('margin-left','auto');
 			$('#rest').css('margin-top','0');
 		}
-	});
-	
-	$('a.back-to-top').click(function() {
-		$('html, body').animate({
-			scrollTop: 0
-		}, 700);
-		return false;
 	});
 </script>
 </html>
