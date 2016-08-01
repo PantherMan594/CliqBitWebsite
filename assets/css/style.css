@@ -24,13 +24,20 @@ a.back-to-top {
 	opacity: 0.5;
 	filter: alpha(opacity=50);
 }
-
 a.back-to-top:hover {
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 	opacity: 0.75;
 	filter: alpha(opacity=75);
+}
+a#view-more {
+	display: none;
+	position: fixed;
+	left: 70vw;
+	float: right;
+	z-index: 999;
+	bottom: 50vh;
 }
 
 .back-to-top i {
@@ -44,10 +51,6 @@ a.back-to-top:hover {
 	position: fixed;
 	top: 0;
 	z-index: 1000;
-}
-#blockIOS img {
-	display: block;
-	margin: 0 auto;
 }
 #blockIOS a {
 	display: block;
@@ -117,9 +120,9 @@ nav > ul > li > a:hover {
 	border-bottom: 0px solid #fff;
 }
 #download:hover {
-	color: #fff;
-	background: #9e0000;
-	border-top: 5px solid #9e0000;
+	color: #000;
+	background: #600004;
+	border-top: 5px solid #600004;
 }
 #logo {
 	background: url("../img/logo.png") no-repeat center;
@@ -180,14 +183,19 @@ nav > ul > li > a:hover {
 #content {
 	margin-bottom: 10px;
 }
-#content p {
+#content p, #content li {
 	font-size: 18px;
 }
-
-#content > p, #content > h1, #content > h2, #content > h3, #content > h4, #content > h5, #content > h6 {
+#content p, #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
 	margin: 10px auto;
-	width: 80vw;
+	width: 90%;
 	max-width: 800px;
+}
+#content.snap {
+	scroll-snap-type: mandatory;
+}
+#content.features img {
+	margin: 25px auto;
 }
 
 hr {
@@ -243,25 +251,35 @@ img {
 }
 
 @media screen and (max-width: 765px) {
-	#captions {
+	#captions, a#view-more {
 		left: 2vw;
 		opacity: 0.75;
 		filter: alpha(opacity=75);
 	}
 }
 
-#viewmore {
-	color: white;
-	background-color: #ffd300;
-    text-decoration: none;
-	margin: 1vw;
-	padding: 1vw;
+.button {
+	font-weight: bold;
+	display: inline-block;
+	color: #fff;
+	background-color: #a20009;
+	text-decoration: none;
+	padding: 15px;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+.button:hover {
+	background-color: #600004;
+	color: #000;
 }
 
 .centered {
 	text-align: center;
 }
-
+.centeredImg, #blockIOS img {
+	display: block;
+	margin: 0 auto;
+}
 .indent {
 	text-indent: 3em;
 }
@@ -321,4 +339,35 @@ img {
 .commentName {
 	font-weight: bold;
 	color: gray
+}
+
+#col_wrap {
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+#col_wrap p, #col_wrap li {
+	max-width: 95%;
+}
+#col_wrap img {
+	max-width: 85%;
+	margin: 30px;
+}
+#left_col {
+	float: left;
+	width: 50%;
+}
+#right_col {
+	float: right;
+	width: 50%;
+}
+@media screen and (max-width: 765px) {
+	#left_col {
+		float: none;
+		width: 100%;
+	}
+	#right_col {
+		float: none;
+		width: 100%;
+	}
 }

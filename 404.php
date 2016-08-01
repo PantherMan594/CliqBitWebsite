@@ -26,6 +26,7 @@
 			<li><a href="https://twitter.com/CliqBit"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 		</ul>
 	</nav>
+	<br>
 	<div id="content">
 		<h1 class="centered">Joke's on you!</h3>
 		<p>You came to the wrong place. This is not CliqBit! In fact... this page doesn't exist! You should go back to our <a href="./">home page</a> and continue from there.</p>

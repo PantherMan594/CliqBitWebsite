@@ -28,6 +28,7 @@
 			<li><a href="https://twitter.com/CliqBit"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 		</ul>
 	</nav>
+	<br>
 	<div id="content">
 		<h2>Blazin' Bits</h2>
 		<p>...are the top public posts throughout all the CliqBit-ers. Post your funniest pictures to get them on the list for everyone to see!</p>

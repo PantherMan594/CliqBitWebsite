@@ -13,6 +13,7 @@
 </head>
 <body>
 	<a href="#" class="back-to-top"><i class="fa fa-chevron-up fa-3x" aria-hidden="true"></i></a>
+	<a href="features" id="view-more" class="button">View more features</a>
 	<header></header>
 	<nav>
 		<ul id="nav-pre">
@@ -28,6 +29,7 @@
 			<li><a href="https://twitter.com/CliqBit"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 		</ul>
 	</nav>
+	<br>
 	<div id="content">
 		<h2 class="centered">The joke’s on us.</h2>
 		<p class="indent">Literally — we’re the humorous social media platform for your not-so-serious side. Candid photos, stockpiled screenshots, funny videos, and clever comments are about to be taken to a whole new level. Get ready for some serious laughter!</p>
@@ -73,7 +75,6 @@
 			<div id="blazin">
 				<h1>Blazin' Bits</h1>
 				<h3>Top public posts</h3>
-				<h3><a href="features" id="viewmore" >View more features</a></h3>
 			</div>
 		</div>
 	</div>
@@ -106,18 +107,20 @@
 		
 		if (scrollTop > $('.funny').offset().top + imgOffset) {
 			$('#funny').css('display','block');
-			$('#captions').css('top',scrollTop - imgOffset);
+			$('#captions').css('position','fixed').css('top', - imgOffset);
 		} else {
-			$('#captions').css('top',$('.funny').offset().top);
+			$('#captions').css('position','absolute').css('top',$('.funny').offset().top);
 		}
 		
 		if (scrollTop > $('.memes').offset().top + imgOffset) {
 			$('#funny').css('display','none');
 			$('#memes').css('display','block');
 			$('#demo').attr('src','assets/img/iphoneTemplateMemes.png');
+			$('#view-more').fadeIn('slow');
 		} else {
 			$('#memes').css('display','none');
 			$('#demo').attr('src','assets/img/iphoneTemplateFunny.png');
+			$('#view-more').fadeOut('slow');
 		}
 		
 		if (scrollTop > $('.cliqs').offset().top + imgOffset) {

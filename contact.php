@@ -28,6 +28,7 @@
 			<li><a href="https://twitter.com/CliqBit"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 		</ul>
 	</nav>
+	<br>
 	<div id="content" class="centered">
 		<h1>Coming Soon!</h1>
 	</div>
@@ -36,24 +37,4 @@
 <link type="text/css" rel="stylesheet" href="assets/css/style.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="assets/js/global.js"></script>
-<script type="text/javascript">
-	var amountScrolled = 300;
-
-	$(window).scroll(function(){
-		var scrollTop = $(window).scrollTop();
-		
-		if (scrollTop > amountScrolled ) {
-			$('a.back-to-top').fadeIn('slow');
-		} else {
-			$('a.back-to-top').fadeOut('slow');
-		}
-	});
-	
-	$('a.back-to-top').click(function() {
-		$('html, body').animate({
-			scrollTop: 0
-		}, 700);
-		return false;
-	});
-</script>
 </html>
