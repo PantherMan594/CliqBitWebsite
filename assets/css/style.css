@@ -161,9 +161,6 @@ nav > ul > li > a:hover {
 	display: none;
 }
 
-#content {
-	margin-top: 10vh;
-}
 #content p {
 	font-size: 18px;
 }
@@ -190,13 +187,14 @@ img {
 }
 
 #demo {
+	position: relative;
+    top: 48px;
 	z-index: 10;
 	height: 110vh;
 	display: block;
 	margin: 0 auto;
 	max-width: 90vw;
 	pointer-events: none;
-	position: relative;
 }
 
 .demoImg {
