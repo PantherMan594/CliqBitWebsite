@@ -81,11 +81,10 @@
 <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 <link type="text/css" rel="stylesheet" href="assets/css/style.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="assets/js/global.js"></script>
 <script type="text/javascript">
-	var navPosition = $('#nav').offset();
 	var elementPosition = $('#demo').offset();
 	var imgOffset = elementPosition.top - $('.funny').offset().top;
-	var amountScrolled = 300;
 	
 	$(document).ready(function() {
 		$('.demoImg').css('width',($('#demo').width() * 0.7));
@@ -96,20 +95,6 @@
 	$(window).scroll(function(){
 		var scrollTop = $(window).scrollTop();
 		var stickHeight = $('.stick').height() == null ? 0 : $('.stick').height();
-		
-		if (scrollTop > navPosition.top && $(window).width() > 765) {
-			$('#content').css('margin-top',$('#nav').height() + 15);
-			$('#nav').addClass('stick');
-		} else {
-			$('#nav').removeClass('stick');
-			$('#content').css('margin-top','0');
-		}
-		
-		if (scrollTop > amountScrolled ) {
-			$('a.back-to-top').fadeIn('slow');
-		} else {
-			$('a.back-to-top').fadeOut('slow');
-		}
 		
 		if(scrollTop > elementPosition.top - stickHeight){
 			$('#rest').css('margin-top',$('#demo').height() + 15);
@@ -158,13 +143,6 @@
 		} else {
 			$('#blazin').css('display','none');
 		}
-	});
-	
-	$('a.back-to-top').click(function() {
-		$('html, body').animate({
-			scrollTop: 0
-		}, 700);
-		return false;
 	});
 </script>
 </html>
