@@ -177,6 +177,9 @@ nav > ul > li > a:hover {
 	display: none;
 }
 
+#content {
+	margin-bottom: 10px;
+}
 #content p {
 	font-size: 18px;
 }

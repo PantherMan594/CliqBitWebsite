@@ -63,7 +63,7 @@
 		var scrollTop = $(window).scrollTop();
 		var stickHeight = $('.stick').height() == null ? 0 : $('.stick').height();
 		
-		if(scrollTop > elementPosition.top){
+		if(scrollTop > elementPosition.top - stickHeight){
 			$('#rest').css('margin-top',$('#demo').height() + 15);
 			$('#demo').css('position','fixed').css('top',stickHeight).css('left','50%').css('margin-left',(-0.5 * $('#demo').width()));
 		} else {
