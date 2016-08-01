@@ -58,8 +58,8 @@
 		<p>We all have inside jokes. Don't want something going on your main newsfeed? Swipe left to share within a cliq! Invite your friends to these private feeds that have the same taste (or lack thereof) and have a blast!</p>
 		<img src="assets/img/cliqs.png" alt="What a cliq page looks like" />
 		<h2 id="blazin-bits">Blazin' Bits</h2>
-		<p>Wanna know what’s burning up on CliqBit? Click the fire icon! The hottest posts are here on a separate feed.</p>
-		<img src="assets/img/blazin.png" alt="Blazin' Bits icon" />
+		<p>Wanna know what’s burning up on CliqBit? Click the fire icon! (Try it!) The hottest posts are here on a separate feed.</p>
+		<a href="blazin"><img src="assets/img/blazin.png" alt="Blazin' Bits fire icon" /></a>
 		<h2 id="secret-cheers">Secret Cheers Count</h2>
 		<p>Cheers are our version of likes--without all the competition. Only you can see who’s cheered your posts. Less data, less drama.</p>
 		<img src="assets/img/cheers.png" alt="CliqBit cheers button" />
