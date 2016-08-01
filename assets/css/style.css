@@ -121,6 +121,9 @@ nav > ul > li > a:hover {
 	padding-top: 20px;
 	border-top: 5px solid #000;
 }
+#nav.stick li {
+	width: 16%;
+}
 #nav.stick a:not(#logo):hover, .stick #nav-active {
 	padding-top: 10px!important;
 	border-top: 5px solid #000;
