@@ -1,5 +1,18 @@
 var navPosition = $('#nav').offset();
 var amountScrolled = 300;
+var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+$(document).ready(function() {
+	if (iOS && document.cookie != 'bypassIOS=true') {
+		 $('body').append('<div id="blockIOS"><img style="margin-top: 30px;" src="assets/img/logo_large.png" /><h1 class="centered">Hey, looks like you\'re on an iOS device, download the app for the full experience!</h1><a href="https://itunes.apple.com/us/app/cliqbit/id1029040166?ls=1&mt=8"><img src="assets/img/downloadIOS.png" /></a><a id="toSite" href="#" style="text-align: center; margin-top: 50px;">Just take me to the site.</a></div>');
+		 var toSite = document.getElementById('toSite');
+		 toSite.onclick = function() {
+			 document.cookie = 'bypassIOS=true';
+			 $('#blockIOS').remove();
+			 return false;
+		 }
+	}
+});
 
 $(window).scroll(function(){
 	var scrollTop = $(window).scrollTop();
