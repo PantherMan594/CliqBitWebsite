@@ -5,12 +5,18 @@ $(window).scroll(function(){
 	var scrollTop = $(window).scrollTop();
 	var stickHeight = $('.stick').height() == null ? 0 : $('.stick').height();
 	
-	if (scrollTop > navPosition.top && $(window).width() > 765) {
-		$('#content').css('margin-top',$('#nav').height() + 15);
-		$('#nav').addClass('stick');
+	if (scrollTop > navPosition.top + 25 && $(window).width() > 765) {
+		if (!$('#nav').hasClass('stick')) {
+			$('#content').css('margin-top',$('#nav').height() + 15);
+			$('#nav').addClass('stick');
+			$('#nav li').animate({'min-width': '16%'}, 'fast');
+		}
 	} else {
-		$('#nav').removeClass('stick');
-		$('#content').css('margin-top','0');
+		if ($('#nav').hasClass('stick')) {
+			$('#nav').removeClass('stick');
+			$('#content').css('margin-top','0');
+			$('#nav li').animate({'min-width': '0%'}, 'fast');
+		}
 	}
 	
 	if (scrollTop > amountScrolled ) {
