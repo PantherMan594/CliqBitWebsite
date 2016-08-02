@@ -112,6 +112,7 @@ nav > ul > li > a:hover {
 	position: static;
 }
 #nav > li > a > i {
+	margin-top: 2px;
 	line-height: 0.9;
 }
 #nav.stick {
@@ -124,6 +125,7 @@ nav > ul > li > a:hover {
 	padding: 15px 35px;
 }
 #nav.stick > li > a > i {
+	margin-top: 1px;
 	line-height: 0.74;
 }
 #download {
