@@ -199,6 +199,23 @@ nav > ul > li > a:hover {
 		padding-top: 25px;
 		border-top: 0px solid #000;}
 }
+#legal {
+	position: absolute;
+	right: 10px;
+	float: right;
+	margin:10px;
+}
+#legal a {
+	font-size: 12px;
+	color: #fff;
+	border-bottom: 0px solid #fff;
+}
+#legal a:hover {
+	color: #000;
+	border-top: 5px solid #600004;
+	background-color: #600004;
+}
+
 .hidden {
 	display: none;
 }
@@ -209,7 +226,7 @@ nav > ul > li > a:hover {
 #content p, #content li {
 	font-size: 18px;
 }
-#content p, #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+#content p, #content h1, #content h2, #content h3, #content h4, #content h5, #content h6, #content ul, #content li {
 	margin: 10px auto;
 	width: 90%;
 	max-width: 800px;

@@ -18,7 +18,8 @@
 	<nav>
 		<ul id="nav-pre">
 			<li id="tagline">Share your not-so-serious side.</li>
-			<li ><a id="download" href="https://itunes.apple.com/us/app/cliqbit/id1029040166?ls=1&mt=8">Download Now!</a></li>
+			<li id="legal"><a href="legal#tos">Terms</a> <a href="legal#privacy">Privacy</a></li>
+			<li><a id="download" href="https://itunes.apple.com/us/app/cliqbit/id1029040166?ls=1&mt=8">Download Now!</a></li>
 		</ul>
 		<ul id="nav">
 			<li><a id="logo" href="./"><span>filler</span></a></li>
