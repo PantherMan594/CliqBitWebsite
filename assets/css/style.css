@@ -194,10 +194,11 @@ nav > ul > li > a:hover {
 		border-bottom: 0px solid #fff;
 	}
 	#nav-active {
-		background: #9e0000;
+		background: #600004;
 		color: #fff;
 		padding-top: 25px;
-		border-top: 0px solid #000;}
+		border-top: 0px solid #000;
+	}
 }
 #legal {
 	position: absolute;
