@@ -32,6 +32,8 @@
 		<p>You came to the wrong place. This is not CliqBit! In fact... this page doesn't exist! You should go back to our <a href="./">home page</a> and continue from there.</p>
 	</div>
 </body>
+<link href= 'https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 <link type="text/css" rel="stylesheet" href="assets/css/style.css">
 <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

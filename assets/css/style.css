@@ -1,10 +1,17 @@
 body {
 	background-color: #f28530;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Lato", Arial, Helvetica, sans-serif;
+	font-weight: 300;
 	margin: 0;
 	padding: 0;
 	font-size: 15px;
 	color: #fff;
+
+    -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway", "Lato", Arial, Helvetica, sans-serif;
+	font-weight: 400;
 }
 
 a.back-to-top {
@@ -104,6 +111,9 @@ nav > ul > li > a:hover {
 	background-color: #a20009;
 	position: static;
 }
+#nav > li > a > i {
+	line-height: 0.9;
+}
 #nav.stick {
 	top: 0;
 	z-index: 1000;
@@ -114,7 +124,7 @@ nav > ul > li > a:hover {
 	padding: 15px 35px;
 }
 #nav.stick > li > a > i {
-	line-height: 0.75
+	line-height: 0.74;
 }
 #download {
 	border-bottom: 0px solid #fff;
