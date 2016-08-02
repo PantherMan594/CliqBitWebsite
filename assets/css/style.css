@@ -13,6 +13,18 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Raleway", "Lato", Arial, Helvetica, sans-serif;
 	font-weight: 400;
 }
+a {
+	text-decoration: none;
+}
+img.oval {
+	border-radius: 50%;
+}
+img.rounded-100 {
+	border-radius: 100px;
+}
+img.rounded-50 {
+	border-radius: 50px;
+}
 
 a.back-to-top {
 	color: white;
@@ -96,7 +108,6 @@ nav > ul > li > a {
     display: block;
     line-height: 1;
     padding: 25px 35px;
-    text-decoration: none;
 	font-variant: small-caps;
 	font-weight: bold;
 	border-bottom: 3px solid #fff;
@@ -213,7 +224,7 @@ nav > ul > li > a:hover {
 hr {
 	display: block;
     height: 1px;
-	width: 50vw;
+	width: 50%;
 	max-width: 500px;
     border: 0;
     border-top: 3px solid #fff;
@@ -274,8 +285,7 @@ img {
 	font-weight: bold;
 	display: inline-block;
 	color: #fff;
-	background-color: #a20009;
-	text-decoration: none;
+	background-color: #a20009;
 	padding: 15px;
 	border: 1px solid #000;
 	border-radius: 10px;
@@ -353,6 +363,17 @@ img {
 	color: gray
 }
 
+#press > div {
+	padding: 10px;
+	background-color: #f28430;
+	display: block;
+	margin: 0 auto;
+	max-width: 700px;
+}
+#press > div > a {
+	color: #fff;
+}
+
 #col_wrap {
 	width: 90%;
 	max-width: 800px;
@@ -363,7 +384,8 @@ img {
 }
 #col_wrap img {
 	max-width: 85%;
-	margin: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 #left_col {
 	float: left;
